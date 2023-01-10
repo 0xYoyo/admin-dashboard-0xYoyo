@@ -40,14 +40,14 @@ li img{
 /*Right side*/
 .right{
     display: grid;
-    grid-template-rows: 180px 1fr;
+    grid-template-rows: 190px 1fr;
 }
 /*Header*/
 .top{
     background-color: #f8fafc;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 30px 50px;
+    grid-template-columns: 2.2fr 1fr;
+    padding: 20px 50px;
     box-shadow: 0px 1px 4px #999999;
 }
 
@@ -58,9 +58,27 @@ li img{
 .topR, .bottomR{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
     justify-items: center;
     align-items: center;
+    margin-top: -8px;
+}
+ 
+.topR img{
+    justify-self: end;
+}
+
+#profile{
+    justify-self: start;
+}
+
+.bottomR{
+    align-content: center;
+}
+
+.pfp img{
+height: 4rem;
+width: 4rem;
+border-radius: 100%;
 }
 
 #profile{
@@ -73,6 +91,12 @@ li img{
     grid-template-columns: min-content 1fr;
     gap: 10px;
     align-items: center;
+}
+
+.bottomL img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%; 
 }
 
 .bottomR button{
@@ -115,7 +139,7 @@ label img{
     background-color: #e5e7eb;
     padding: 20px;
     display: grid;
-    grid-template: 1fr 1fr / 3.2fr 1fr;
+    grid-template: 1fr 1fr / 3fr 1fr;
     gap: 20px;
 }
 
@@ -140,9 +164,19 @@ label img{
 }
 
 .funcs{
-padding: 5px;
+padding-top: 5px;
 align-self: end;
 justify-self: end;
+}
+
+.funcs button{
+    background-color: #fff;
+    border: none;
+}
+
+.funcs img{
+    height: 1.3rem;
+    width: 1.3rem;
 }
 
 .note{
@@ -176,7 +210,7 @@ justify-self: end;
     border-radius: 10px;
     display: grid;
     gap: 20px;
-    padding: 30px 20px;
+    padding: 20px 20px;
     box-shadow: 1px 1px 4px #999999;
 }
 
@@ -184,6 +218,12 @@ justify-self: end;
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 10px;
+}
+
+.person img{
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 100%;
 }
 
 .sub{
