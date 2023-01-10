@@ -7,36 +7,36 @@
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
-<body>
+<body id="override">
 
     <div class="container">
         <div class="left">
             <h1>Dashboard</h1>
 
             <ul class="menu">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><img src="./images/home.svg" alt="home"> Home</li>
+                <li><img src="./images/card-account-details-outline.svg" alt="profile"> Profile</li>
+                <li><img src="./images/message-reply.svg" alt="message"> Messages</li>
+                <li><img src="./images/clock-time-three.svg" alt="history"> History</li>
+                <li><img src="./images/file-multiple.svg" alt="tasks"> Tasks</li>
+                <li><img src="./images/account-group.svg" alt="Communities"> Communities</li>
             </ul>
 
             <ul class="helpers">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><img src="./images/cog.svg" alt="settings"> Settings</li>
+                <li><img src="./images/help-box.svg" alt="support"> Support</li>
+                <li><img src="./images/shield-check.svg" alt="privacy"> Privacy</li>
             </ul>
         </div>
 
         <div class="right">
             <div class="top">
                 <div class="topL">
-                    <label for="search">P</label>
+                    <label for="search"><img src="./images/magnify.svg" alt="mag"></label>
                     <input type="search" id="search" name="search">
                 </div>
                 <div class="topR">
-                    <button>bell</button>
+                    <img src="./images/bell-ring-outline.svg" alt="bell">
                     <div>pic</div>
                     <div id="profile">Morgan Oakley</div>
                 </div>
@@ -59,8 +59,10 @@
                     <h2>Your Projects</h2>
                     <div class="cards">
                     <div class="card">
-                        <strong>Super Cool Project</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt.</div>  
+                        <div>
+                            <strong>Super Cool Project</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt.</div>
+                        </div>  
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -69,8 +71,10 @@
                     </div>
 
                     <div class="card">
-                        <strong>Less Cool Project</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet risus nullam eget felis eget. Sit amet aliquam id diam maecenas ultricies.</div>  
+                        <div>
+                            <strong>Less Cool Project</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet risus nullam eget felis eget. Sit amet aliquam id diam maecenas ultricies.</div>
+                        </div>
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -79,8 +83,10 @@
                     </div>
 
                     <div class="card">
-                        <strong>Impossible App</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>   
+                        <div>
+                            <strong>Impossible App</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -89,8 +95,10 @@
                     </div>
 
                     <div class="card">
-                        <strong>Easy Peasy App</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus laoreet non curabitur gravida arcu.</div> 
+                        <div>
+                            <strong>Easy Peasy App</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus laoreet non curabitur gravida arcu.</div>
+                        </div> 
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -99,8 +107,10 @@
                     </div>
 
                     <div class="card">
-                        <strong>Ad Blocker</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed. Risus viverra adipiscing at in tellus.</div>  
+                        <div>
+                            <strong>Ad Blocker</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed. Risus viverra adipiscing at in tellus.</div>
+                        </div>
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -109,8 +119,10 @@
                     </div>
 
                     <div class="card">
-                        <strong>Money Maker</strong><br>
-                        <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in metus vulputate eu. Sem integer vitae justo eget magna fermentum iaculis. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</div>  
+                        <div>
+                            <strong>Money Maker</strong><br>
+                            <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus in metus vulputate eu. Sem integer vitae justo eget magna fermentum iaculis. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</div>
+                        </div>
                         <div class="funcs">
                             <button>star</button>
                             <button>eye</button>
@@ -131,7 +143,7 @@
                             <strong>Community Share Day</strong><br>
                             <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu...</div> 
                         </div>
-                        <div class="note">
+                        <div class="note" id="last">
                             <strong>Updated Privacy Policiy</strong><br>
                             <div class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab...</div>
                         </div>
